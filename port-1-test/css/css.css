@@ -1,0 +1,42 @@
+@import url(reset.css);
+
+body{
+    min-width: 1440px;
+    background: #000;
+}
+ .container{
+     width: 1440px;
+     margin: 0 auto;
+ }
+
+ /*================================================ header ===============================================*/
+ .logo img{
+     float: left;
+     margin: 20px 0 0 20px;
+ }
+.logo img:hover{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+}
+.logo img:active{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+}
+.header-spisak{
+    display: flex;
+}
+.spisak{
+    display: flex;
+}
+.spisak li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+}
+.spisak li a:hover{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+}
+.spisak li a:active{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+}
