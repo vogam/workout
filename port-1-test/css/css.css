@@ -25,6 +25,7 @@ body{
 }
 .spisak{
     display: flex;
+    margin-top: 20px;
 }
 .spisak li a{
     text-decoration: none;
@@ -34,9 +35,53 @@ body{
     font-size: 20px;
     line-height: 50px;
 }
+.spisak li{
+    margin-left: 30px;
+}
+.spisak{
+    margin-left: 780px;
+}
 .spisak li a:hover{
     filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
 }
 .spisak li a:active{
     filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+}
+.en-ru a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 700;
+}
+.en-ru a:hover{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+}
+.en-ru a:active{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+}
+.en-ru span{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 9px 0 9px;
+}
+.en-ru{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+@media screen and (max-width: 1000px){
+    html, body{
+        min-width: 1000px;
+    }
+    .container{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .spisak{
+        margin-left: 300px;
+    }
 }
